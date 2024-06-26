@@ -6,12 +6,12 @@ namespace Classes
     {
         static void Main(string[] args)
         {
-            var fusion = new Car();
-            fusion.Make = "Ford";
-            fusion.Model = "Fusion";
-            fusion.Year = 2019;
+            Car myCar = new Car();
+            myCar.Make = "Ford";
+            myCar.Model = "Fusion";
+            myCar.Year = 2019;
 
-            Console.WriteLine($"{fusion.Make}, {fusion.Model}, {fusion.Year}");
+            Console.WriteLine($"{myCar.Make}, {myCar.Model}, {myCar.Year}");
         }
     }
 }
